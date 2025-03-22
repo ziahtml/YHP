@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourHousingPAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welcome to YourHousingPAL</h1>
+    <p>Find your perfect home by filling out this form.</p>
+
+    <form id="housingForm" action="YOUR_SHEETMONKEY_URL" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="Name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="budget">Budget Range:</label>
+        <input type="text" id="budget" name="Budget">
+
+        <label for="location">Preferred Location:</label>
+        <input type="text" id="location" name="Location">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
