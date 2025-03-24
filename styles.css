@@ -148,6 +148,33 @@ button:hover {
     background-color: #0056b3;
 }
 
+footer {
+    background: #1a2a4f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* 📱 Mobile Styles */
 @media (max-width: 768px) {
     #hero {
