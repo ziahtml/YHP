@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YourHousingPAL</title>
     <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
   
-<header>
+<header id="hero">
     <img src="yhp logo.png" alt="YourHousingPAL Logo" id="logo">
+    <h2>Helping Landlords Maximise Their Property Potential</h2>
 </header>
-  
+
 <section id="welcome">
     <h1>Welcome to YourHousingPAL</h1>
     <p>Like any any good pal, you can rely on us.</p>
@@ -20,25 +23,35 @@
   </section>
   
   <section id="about">
-    <h2>About YourHousingPAL</h2>
-    <p>At YourHousingPAL, we specialize in helping landlords find tailored solutions to their housing challenges. Whether you're dealing with vacant properties, difficult tenants, or financial concerns, we're here to help.</p>
-    <p>Our goal is simple: to help landlords maximize their rental potential while providing reliable solutions. We understand that every property is unique, and we work closely with you to ensure you get the best possible outcome.</p>
-    <p>Located in Canterbury, we focus on properties near Canterbury City Centre and Canterbury Cathedral, ensuring landlords in these areas receive expert support.</p>
-    <p><strong>We are here to make your property work for you!</strong></p>
+    <h2>Why Choose Us?</h2>
+    <p>At YourHousingPAL, we specialise in helping landlords navigate challenges and maximise returns.</p>
+    <div class="about-container">
+        <div class="about-box">
+            <h3>Tailored Solutions</h3>
+            <p>We create custom solutions to meet your specific property needs.</p>
+        </div>
+        <div class="about-box">
+            <h3>Financial Boost</h3>
+            <p>We help landlords increase revenue through smarter strategies.</p>
+        </div>
+        <div class="about-box">
+            <h3>Trusted Advisors</h3>
+            <p>Your success is our priority. We offer expert guidance at every step.</p>
+        </div>
+    </div>
 </section>
 
-
+<section id="contact">
+    <h2>Tell Us About Your Property</h2>
     <form id="housing-form">
-    <h2>Find the Best Solution for Your Property</h2>
-    
-    <label for="property-location">Is your property near Canterbury City Centre or Canterbury Cathedral?</label>
-    <select id="property-location" name="property-location" required>
-        <option value="">Select an option</option>
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-    </select>
+        <label for="property-location">Is your property near Canterbury City Centre or Canterbury Cathedral?</label>
+        <select id="property-location" name="property-location" required>
+            <option value="">Select an option</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
 
-    <label for="property-type">Property Type:</label>
+ <label for="property-type">Property Type:</label>
     <select id="property-type" name="property-type" required>
         <option value="">Select Property Type</option>
         <option value="Apartment">Apartment</option>
@@ -64,9 +77,10 @@
 
     <button type="submit">Submit</button>
 </form>
-
+  </section>
 
     <script src="script.js"></script>
 
 </body>
 </html>
+
